@@ -1,9 +1,16 @@
 {
   "name": "wordnet",
   "main": "./lib/atom-wordnet",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds a wordnet interface to atom to easily access definitions and synonyms.",
-  "keywords": ["wordnet", "thesaurus", "synonyms", "english", "definitions", "dictionary"],
+  "keywords": [
+    "wordnet",
+    "thesaurus",
+    "synonyms",
+    "english",
+    "definitions",
+    "dictionary"
+  ],
   "repository": "https://github.com/mbroedl/atom-wordnet",
   "activationCommands": {
     "atom-workspace": "wordnet:toggle"
