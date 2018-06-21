@@ -1,14 +1,18 @@
 # atom-wordnet package
 
 A Wordnet wrapper to display definitions and insert/replace synonyms.
-Warning: It downloads and extracts the whole WordNet (~30mb) database.
+
+**Warning:** It downloads and extracts the whole WordNet (~30mb) database.
 
 ![Screenshot](screenshot.png)
 
 At the moment this package is _not_ auto-activated (so needs to be toggled every time) and has _no keybindings_ (so you can find those that work best for you).
 
 To **auto-activate** put the following line in your _init.coffee_:
-`atom.commands.dispatch('wordnet:toggle')`
+
+```
+atom.commands.dispatch(atom.workspace.element, 'wordnet:toggle')
+```
 
 Otherwise, call `wordnet:toggle` manually when you need it.
 
