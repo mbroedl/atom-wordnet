@@ -1,0 +1,35 @@
+@import "ui-variables";
+
+.select-list.wordnet-selector {
+    & > span {
+        display: block;
+    }
+    .position {
+        display: block;
+        font-style: italic;
+        float: left;
+        color: @text-color-subtle;
+        padding: 0 0.5em;
+        &::before { content: '{'; }
+        &::after { content: '}'; }
+    }
+    .definition {
+        display: block;
+        color: @text-color-highlight;
+    }
+    .explanation {
+        color: @text-color-subtle;
+        display: block;
+        font-style: italic;
+    }
+    .results {
+    }
+    .searched {
+        font-weight: bold;
+        color: @text-color-highlight;
+    }
+    .selected-term {
+        font-weight: bold;
+        color: @text-color-info;
+    }
+}
