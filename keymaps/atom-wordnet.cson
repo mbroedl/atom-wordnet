@@ -1,3 +1,5 @@
 '.wordnet-selector atom-text-editor':
-    'tab': 'wordnet:select-next'
-    'shift-tab': 'wordnet:select-previous'
+    'tab'       : 'wordnet:select-next'
+    'right'     : 'wordnet:select-next'
+    'shift-tab' : 'wordnet:select-previous'
+    'left'      : 'wordnet:select-previous'

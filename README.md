@@ -30,8 +30,11 @@ If you would like keybindings, copy these lines to your _keymap.cson_ (and chang
 
 ## Potential Future Improvements
 
+* search for a word based on the selection
+* fuzzy search + suggestions for words under cursor
 * a helper-pane showing a definition for the word currently under the cursor
 * automatic expansion of the currently typed word in the wordnet-search
-* configurable fields from the wordnet database
+* use user-defined fields from the wordnet database
+* display categorisation, similar-to or antonyms
 * part-of-speech guessing to only show relevant words
 * integrate with other packages using the `natural` package and therefore having a wordnet-copy already
