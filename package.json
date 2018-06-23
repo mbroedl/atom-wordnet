@@ -12,9 +12,6 @@
     "dictionary"
   ],
   "repository": "https://github.com/mbroedl/atom-wordnet",
-  "activationCommands": {
-    "atom-workspace": "wordnet:toggle"
-  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -22,5 +19,18 @@
   "dependencies": {
     "atom-select-list": "^0.7.1",
     "wordpos": "^1.1.6"
+  },
+  "configSchema": {
+    "grammars": {
+      "type": "array",
+      "default": [
+        "source.gfm",
+        "text.html.basic",
+        "text.md",
+        "text.plain",
+        "text.plain.null-grammar"
+      ],
+      "description": "List of scopes for languages for which the wornet package and its keybindings are enabled. `*` for any language."
+    }
   }
 }
