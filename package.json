@@ -1,7 +1,7 @@
 {
   "name": "wordnet",
   "main": "./lib/atom-wordnet",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Adds a wordnet interface to atom to easily access definitions and synonyms.",
   "keywords": [
     "wordnet",
